@@ -1,0 +1,32 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime data
+.data/
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+
+# Frontend
+node_modules/
+dist/
+.parcel-cache/
+
+# Temporary files
+/tmp/
+*.tmp

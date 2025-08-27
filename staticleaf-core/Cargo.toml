@@ -1,0 +1,21 @@
+[package]
+name = "staticleaf-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+sqlx = { workspace = true }
+chrono = { workspace = true }
+uuid = { workspace = true }
+argon2 = { workspace = true, features = ["password-hash"] }
+jsonwebtoken = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+toml = { workspace = true }
+image = { workspace = true }
+webp = { workspace = true }
+tracing = { workspace = true }
+rand = "0.8"
